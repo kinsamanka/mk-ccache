@@ -1,0 +1,4 @@
+hal/cython/machinekit/hal.c: In function '__pyx_tp_new_10machinekit_3hal___pyx_scope_struct__read':
+hal/cython/machinekit/hal.c:33133:92: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+     PyObject_INIT(o, t);
+                                                                                            ^

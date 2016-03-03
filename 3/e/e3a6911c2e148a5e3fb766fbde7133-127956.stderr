@@ -1,0 +1,4 @@
+hal/lib/hal_group.c: In function 'halpr_group_compile':
+hal/lib/hal_group.c:539:9: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     int result;
+         ^

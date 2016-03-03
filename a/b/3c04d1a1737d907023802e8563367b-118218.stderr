@@ -1,0 +1,4 @@
+hal/drivers/hal_zed_gpio.c: In function 'rtapi_app_main':
+hal/drivers/hal_zed_gpio.c:313:16: warning: variable 'msg_level' set but not used [-Wunused-but-set-variable]
+     static int msg_level;
+                ^

@@ -1,0 +1,5 @@
+hal/components/rtfault.comp: In function '_':
+hal/components/rtfault.comp:34:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("fault # %d\n", n--);
+  ^
+hal/components/rtfault.comp:34:2: warning: incompatible implicit declaration of built-in function 'printf'
