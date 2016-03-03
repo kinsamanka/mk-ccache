@@ -1,0 +1,4 @@
+hal/drivers/hal_vti.c: In function 'vti_dac_write':
+hal/drivers/hal_vti.c:794:11: warning: variable 'junk' set but not used [-Wunused-but-set-variable]
+     short junk;
+           ^

@@ -1,0 +1,4 @@
+emc/usr_intf/emcweb.cc: In member function 'void ReqHandler::Exit()':
+emc/usr_intf/emcweb.cc:221:14: warning: deleting object of polymorphic class type 'WebPage' which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete it->second;
+              ^

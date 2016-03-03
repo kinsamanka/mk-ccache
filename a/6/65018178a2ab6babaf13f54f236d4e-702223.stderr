@@ -1,0 +1,3 @@
+hal/cython/machinekit/rtapi.c:669:18: warning: '__Pyx_PyObject_CallMethodTuple' defined but not used [-Wunused-function]
+ static PyObject* __Pyx_PyObject_CallMethodTuple(PyObject* obj, PyObject* method_name, PyObject* args) {
+                  ^

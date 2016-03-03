@@ -1,0 +1,128 @@
+libnml/cms/tcp_srv.cc: In member function 'void CMS_SERVER_REMOTE_TCP_PORT::handle_request(CLIENT_TCP_PORT*)':
+libnml/cms/tcp_srv.cc:695:97: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     request_type = ntohl(*((u_long *) temp_buffer + 1));
+                                                                                                 ^
+libnml/cms/tcp_srv.cc:696:98: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     buffer_number = ntohl(*((u_long *) temp_buffer + 2));
+                                                                                                  ^
+libnml/cms/tcp_srv.cc: In member function 'void CMS_SERVER_REMOTE_TCP_PORT::switch_function(CLIENT_TCP_PORT*, CMS_SERVER*, long int, long int, long int)':
+libnml/cms/tcp_srv.cc:757:97: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   htonl(*((u_long *) (server->set_diag_info_buf + 48)));
+                                                                                                 ^
+libnml/cms/tcp_srv.cc:759:97: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   htonl(*((u_long *) (server->set_diag_info_buf + 52)));
+                                                                                                 ^
+libnml/cms/tcp_srv.cc:763:54: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   *((int *) ((char *) server->set_diag_info_buf + 64));
+                                                      ^
+libnml/cms/tcp_srv.cc:827:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:841:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:844:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:847:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:850:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:853:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:856:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:927:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:932:55: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       *((u_long *) ((char *) temp_buffer + dpi_offset)) =
+                                                       ^
+libnml/cms/tcp_srv.cc:940:34: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      *((u_long *) temp_buffer + 6) = htonl(dpi_count);
+                                  ^
+libnml/cms/tcp_srv.cc:941:34: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      *((u_long *) temp_buffer + 7) = htonl(dpi_offset);
+                                  ^
+libnml/cms/tcp_srv.cc:999:80: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   ntohl(*((u_long *) temp_buffer + 3));
+                                                                                ^
+libnml/cms/tcp_srv.cc:1001:80: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   ntohl(*((u_long *) temp_buffer + 4));
+                                                                                ^
+libnml/cms/tcp_srv.cc:1020:84: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       ntohl(*((u_long *) temp_buffer + 6));
+                                                                                    ^
+libnml/cms/tcp_srv.cc:1035:80: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   ntohl(*((u_long *) temp_buffer + 5));
+                                                                                ^
+libnml/cms/tcp_srv.cc:1111:110: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  server->read_req.access_type = ntohl(*((u_long *) temp_buffer + 3));
+                                                                                                              ^
+libnml/cms/tcp_srv.cc:1112:111: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  server->read_req.last_id_read = ntohl(*((u_long *) temp_buffer + 4));
+                                                                                                               ^
+libnml/cms/tcp_srv.cc:1131:109: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      server->read_req.subdiv = ntohl(*((u_long *) temp_buffer + 5));
+                                                                                                             ^
+libnml/cms/tcp_srv.cc:1180:111: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  server->write_req.access_type = ntohl(*((u_long *) temp_buffer + 3));
+                                                                                                               ^
+libnml/cms/tcp_srv.cc:1181:104: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  server->write_req.size = ntohl(*((u_long *) temp_buffer + 4));
+                                                                                                        ^
+libnml/cms/tcp_srv.cc:1199:110: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      server->write_req.subdiv = ntohl(*((u_long *) temp_buffer + 5));
+                                                                                                              ^
+libnml/cms/tcp_srv.cc:1242:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 3));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1255:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 1) =
+                              ^
+libnml/cms/tcp_srv.cc:1257:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 2) =
+                              ^
+libnml/cms/tcp_srv.cc:1268:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 3));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1281:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 1) =
+                              ^
+libnml/cms/tcp_srv.cc:1283:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 2) =
+                              ^
+libnml/cms/tcp_srv.cc:1294:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 3));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1307:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 1) =
+                              ^
+libnml/cms/tcp_srv.cc:1309:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 2) =
+                              ^
+libnml/cms/tcp_srv.cc:1320:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 3));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1333:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 1) =
+                              ^
+libnml/cms/tcp_srv.cc:1335:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  *((u_long *) temp_buffer + 2) =
+                              ^
+libnml/cms/tcp_srv.cc:1345:106: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  server->clear_req.subdiv = ntohl(*((u_long *) temp_buffer + 3));
+                                                                                                          ^
+libnml/cms/tcp_srv.cc:1453:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 3));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1455:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      ntohl(*((u_long *) temp_buffer + 4));
+                                                                                   ^
+libnml/cms/tcp_srv.cc:1484:34: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+      *((u_long *) temp_buffer + 1) =
+                                  ^
