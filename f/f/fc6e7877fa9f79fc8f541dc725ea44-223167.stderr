@@ -1,0 +1,4 @@
+emc/usr_intf/emcweb/mongoose.c: In function 'discard_current_request_from_buffer':
+emc/usr_intf/emcweb/mongoose.c:3700:9: warning: variable 'buffered' set but not used [-Wunused-but-set-variable]
+   char *buffered;
+         ^
