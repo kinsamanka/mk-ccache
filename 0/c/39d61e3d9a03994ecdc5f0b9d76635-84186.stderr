@@ -1,0 +1,9 @@
+machinetalk/msgcomponents/ringload.c: In function 'rtapi_app_main':
+machinetalk/msgcomponents/ringload.c:44:2: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  snprintf(ringname, HAL_NAME_LEN, "ring_%d",n);
+  ^
+machinetalk/msgcomponents/ringload.c:44:2: warning: incompatible implicit declaration of built-in function 'snprintf'
+machinetalk/msgcomponents/ringload.c: In function 'rtapi_app_exit':
+machinetalk/msgcomponents/ringload.c:64:2: warning: incompatible implicit declaration of built-in function 'snprintf'
+  snprintf(ringname, HAL_NAME_LEN, "ring_%d",n);
+  ^

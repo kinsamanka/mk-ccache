@@ -1,0 +1,7 @@
+hal/components/lcd.c: In function 'rtapi_app_main':
+hal/components/lcd.c:145:17: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+                 retval = snprintf(inst->pages[p].fmt,
+                 ^
+hal/components/lcd.c:145:26: warning: incompatible implicit declaration of built-in function 'snprintf'
+                 retval = snprintf(inst->pages[p].fmt,
+                          ^
