@@ -1,0 +1,4 @@
+hal/drivers/hal_gpio.c: In function 'bcm2835_peri_read':
+hal/drivers/hal_gpio.c:93:21: warning: unused variable 'dummy' [-Wunused-variable]
+   volatile uint32_t dummy = *paddr;
+                     ^
