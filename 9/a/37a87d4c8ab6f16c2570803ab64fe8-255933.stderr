@@ -1,0 +1,6 @@
+In file included from /usr/include/python2.7/Python.h:8:0,
+                 from conftest.c:87:
+/usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+In file included from /usr/include/stdio.h:28:0,
+                 from conftest.c:54:
+/usr/include/features.h:214:0: note: this is the location of the previous definition
