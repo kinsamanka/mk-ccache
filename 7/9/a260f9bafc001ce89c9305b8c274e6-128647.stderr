@@ -1,0 +1,3 @@
+machinetalk/support/unionread.c: In function 'print_container':
+machinetalk/support/unionread.c:61:5: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t' [-Wformat]
+machinetalk/support/unionread.c:41:11: warning: unused variable 'eof' [-Wunused-variable]

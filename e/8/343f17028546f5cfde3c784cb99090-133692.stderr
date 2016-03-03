@@ -1,0 +1,4 @@
+hal/drivers/mesa_7i65.comp: In function 'extra_setup':
+hal/drivers/mesa_7i65.comp:227:5: warning: passing argument 2 of 'hm2_bspi_set_read_function' from incompatible pointer type [enabled by default]
+In file included from halcomp-srcs/hal/drivers/mesa_7i65.c:12:0:
+halcomp-srcs/hal/drivers/../../../hal/drivers/mesa-hostmot2/hostmot2.h:1253:5: note: expected 'int (*)(void *)' but argument is of type 'void (*)(struct __comp_state *)'

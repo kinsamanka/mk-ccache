@@ -1,0 +1,68 @@
+libnml/buffer/tcpmem.cc: In member function 'void TCPMEM::send_diag_info()':
+libnml/buffer/tcpmem.cc:195:84: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'void TCPMEM::verify_bufname()':
+libnml/buffer/tcpmem.cc:223:82: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:244:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_DIAGNOSTICS_INFO* TCPMEM::get_diagnostics_info()':
+libnml/buffer/tcpmem.cc:291:82: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:313:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:325:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:326:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:331:101: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:332:104: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:352:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:357:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:360:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:363:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:366:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:369:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:372:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:395:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:402:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual void TCPMEM::reconnect()':
+libnml/buffer/tcpmem.cc:530:83: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'CMS_STATUS TCPMEM::handle_old_replies()':
+libnml/buffer/tcpmem.cc:709:101: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:711:96: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:712:113: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:713:104: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::read()':
+libnml/buffer/tcpmem.cc:958:30: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:972:82: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1009:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1010:100: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1011:90: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1012:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::blocking_read(double)':
+libnml/buffer/tcpmem.cc:1173:82: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1212:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1213:100: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1214:90: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1215:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::peek()':
+libnml/buffer/tcpmem.cc:1353:31: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1398:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1399:100: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1400:90: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1401:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::write(void*)':
+libnml/buffer/tcpmem.cc:1557:104: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1558:100: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::write_if_read(void*)':
+libnml/buffer/tcpmem.cc:1676:104: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1677:100: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual int TCPMEM::check_if_read()':
+libnml/buffer/tcpmem.cc:1761:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1762:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual int TCPMEM::get_queue_length()':
+libnml/buffer/tcpmem.cc:1841:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1842:115: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual int TCPMEM::get_msg_count()':
+libnml/buffer/tcpmem.cc:1921:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:1922:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual int TCPMEM::get_space_available()':
+libnml/buffer/tcpmem.cc:2001:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:2002:98: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc: In member function 'virtual CMS_STATUS TCPMEM::clear()':
+libnml/buffer/tcpmem.cc:2068:107: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+libnml/buffer/tcpmem.cc:2069:103: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]

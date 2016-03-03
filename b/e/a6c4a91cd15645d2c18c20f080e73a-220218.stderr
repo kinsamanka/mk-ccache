@@ -1,0 +1,9 @@
+emc/usr_intf/emcweb/mongoose.c: In function '_calloc':
+emc/usr_intf/emcweb/mongoose.c:464:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'size_t' [-Wformat]
+emc/usr_intf/emcweb/mongoose.c:464:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat]
+emc/usr_intf/emcweb/mongoose.c: In function '_realloc':
+emc/usr_intf/emcweb/mongoose.c:470:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat]
+emc/usr_intf/emcweb/mongoose.c: In function 'discard_current_request_from_buffer':
+emc/usr_intf/emcweb/mongoose.c:3700:9: warning: variable 'buffered' set but not used [-Wunused-but-set-variable]
+emc/usr_intf/emcweb/mongoose.c: In function 'worker_thread':
+emc/usr_intf/emcweb/mongoose.c:3890:7: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat]
