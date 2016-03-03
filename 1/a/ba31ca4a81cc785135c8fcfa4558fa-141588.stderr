@@ -1,0 +1,4 @@
+hal/drivers/mesa-hostmot2/pins.c: In function 'hm2_get_pin_secondary_name':
+hal/drivers/mesa-hostmot2/pins.c:245:21: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+hal/drivers/mesa-hostmot2/pins.c:245:21: warning: incompatible implicit declaration of built-in function 'sprintf' [enabled by default]
+hal/drivers/mesa-hostmot2/pins.c:251:14: warning: incompatible implicit declaration of built-in function 'sprintf' [enabled by default]

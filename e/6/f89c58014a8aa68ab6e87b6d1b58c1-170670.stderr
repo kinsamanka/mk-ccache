@@ -1,0 +1,3 @@
+rtapi/rtapi_pci.c: In function 'pci_enable_device':
+rtapi/rtapi_pci.c:684:34: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+rtapi/rtapi_pci.c:685:32: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]

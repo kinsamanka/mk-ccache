@@ -1,0 +1,8 @@
+hal/utils/halrmt.c: In function 'sockWrite':
+hal/utils/halrmt.c:470:8: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+hal/utils/halrmt.c: In function 'commandGet':
+hal/utils/halrmt.c:2655:7: warning: variable 'retval' set but not used [-Wunused-but-set-variable]
+hal/utils/halrmt.c: In function 'commandSet':
+hal/utils/halrmt.c:3025:7: warning: variable 'retval' set but not used [-Wunused-but-set-variable]
+hal/utils/halrmt.c: In function 'readClient':
+hal/utils/halrmt.c:3344:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
