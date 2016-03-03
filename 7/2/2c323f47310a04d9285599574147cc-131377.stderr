@@ -1,0 +1,4 @@
+machinetalk/support/unionread.c: In function 'print_container':
+machinetalk/support/unionread.c:41:11: warning: unused variable 'eof' [-Wunused-variable]
+     bool eof;
+           ^
