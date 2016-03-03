@@ -1,0 +1,5 @@
+In file included from hal/drivers/mesa-hostmot2/abs_encoder.c:13:0:
+./rtapi/rtapi_compat.h: In function 'kernel_threads':
+./rtapi/rtapi_compat.h:127:5: warning: implicit declaration of function 'RTAPI_BIT' [-Wimplicit-function-declaration]
+     return (f->flags & FLAVOR_KERNEL_BUILD) != 0;
+     ^

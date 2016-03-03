@@ -1,0 +1,17 @@
+emc/usr_intf/emcweb/mongoose.c: In function '_calloc':
+emc/usr_intf/emcweb/mongoose.c:464:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'size_t' [-Wformat=]
+     fprintf(stderr, "Try to calloc %d blocks of %d bytes\n", __nmemb, __size );
+     ^
+emc/usr_intf/emcweb/mongoose.c:464:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat=]
+emc/usr_intf/emcweb/mongoose.c: In function '_realloc':
+emc/usr_intf/emcweb/mongoose.c:470:5: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat=]
+     fprintf(stderr, "Try to re-alloc ptr %p to size %d bytes\n", __ptr, __size );
+     ^
+emc/usr_intf/emcweb/mongoose.c: In function 'discard_current_request_from_buffer':
+emc/usr_intf/emcweb/mongoose.c:3700:9: warning: variable 'buffered' set but not used [-Wunused-but-set-variable]
+   char *buffered;
+         ^
+emc/usr_intf/emcweb/mongoose.c: In function 'worker_thread':
+emc/usr_intf/emcweb/mongoose.c:3890:7: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+       fprintf(stderr, "%s: error when allocating memory of size %d\n", __func__, sizeof(*conn) + buf_size );
+       ^
