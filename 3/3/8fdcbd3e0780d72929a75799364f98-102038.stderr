@@ -1,0 +1,3 @@
+hal/components/pepper.c:540:1: note: offset of packed bit-field 'z' has changed in GCC 4.4
+ };
+ ^
